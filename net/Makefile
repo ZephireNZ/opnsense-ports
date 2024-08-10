@@ -52,9 +52,9 @@
     SUBDIR += beacon
     SUBDIR += beanstalkd
     SUBDIR += belle-sip
+    SUBDIR += benthos
     SUBDIR += bindtest
     SUBDIR += binkd
-    SUBDIR += bird
     SUBDIR += bird2
     SUBDIR += bittwist
     SUBDIR += bmon
@@ -235,7 +235,6 @@
     SUBDIR += hanstunnel
     SUBDIR += haproxy
     SUBDIR += haproxy-devel
-    SUBDIR += haproxy20
     SUBDIR += haproxy22
     SUBDIR += haproxy24
     SUBDIR += haproxy25
@@ -248,6 +247,7 @@
     SUBDIR += honeyd
     SUBDIR += hostapd
     SUBDIR += hostapd-devel
+    SUBDIR += hostapd210
     SUBDIR += hostapd29
     SUBDIR += hping3
     SUBDIR += hsflowd
@@ -255,7 +255,6 @@
     SUBDIR += http_ping
     SUBDIR += httping
     SUBDIR += httpry
-    SUBDIR += iaxmodem
     SUBDIR += icmpinfo
     SUBDIR += icpld
     SUBDIR += ifdepd
@@ -443,6 +442,9 @@
     SUBDIR += linux-c7-avahi-libs
     SUBDIR += linux-c7-openldap
     SUBDIR += linux-c7-tcp_wrappers-libs
+    SUBDIR += linux-rl9-avahi-libs
+    SUBDIR += linux-rl9-libproxy
+    SUBDIR += linux-rl9-openldap
     SUBDIR += liveMedia
     SUBDIR += lla
     SUBDIR += lualdap
@@ -511,7 +513,6 @@
     SUBDIR += ndproxy
     SUBDIR += neatvnc
     SUBDIR += nemesis
-    SUBDIR += nepenthes
     SUBDIR += net6
     SUBDIR += netatalk3
     SUBDIR += netcat
@@ -942,7 +943,6 @@
     SUBDIR += pear-Horde_Scribe
     SUBDIR += pear-Horde_Socket_Client
     SUBDIR += pear-Horde_Url
-    SUBDIR += pear-Net_CDDB
     SUBDIR += pear-Net_CheckIP
     SUBDIR += pear-Net_DIME
     SUBDIR += pear-Net_DNSBL
@@ -997,6 +997,9 @@
     SUBDIR += php83-ldap
     SUBDIR += php83-soap
     SUBDIR += php83-sockets
+    SUBDIR += php84-ldap
+    SUBDIR += php84-soap
+    SUBDIR += php84-sockets
     SUBDIR += phpldapadmin
     SUBDIR += pichi
     SUBDIR += pimcommon
@@ -1027,6 +1030,7 @@
     SUBDIR += py-DTLSSocket
     SUBDIR += py-GeoIP2
     SUBDIR += py-aiocoap
+    SUBDIR += py-aiohappyeyeballs
     SUBDIR += py-aiohttp-socks
     SUBDIR += py-amqp
     SUBDIR += py-amqplib
@@ -1083,6 +1087,7 @@
     SUBDIR += py-netaddr
     SUBDIR += py-netif
     SUBDIR += py-netifaces
+    SUBDIR += py-netifaces-plus
     SUBDIR += py-netsnmpagent
     SUBDIR += py-nnpy
     SUBDIR += py-ntplib
@@ -1109,6 +1114,7 @@
     SUBDIR += py-pyroute2.protocols
     SUBDIR += py-pysendfile
     SUBDIR += py-pyshark
+    SUBDIR += py-pysimplesoap
     SUBDIR += py-pysmb
     SUBDIR += py-pysocks
     SUBDIR += py-pystun
@@ -1149,7 +1155,6 @@
     SUBDIR += py-smart-open
     SUBDIR += py-smbpasswd
     SUBDIR += py-smbprotocol
-    SUBDIR += py-soap2py
     SUBDIR += py-socketio-client
     SUBDIR += py-socksio
     SUBDIR += py-softlayer
@@ -1217,6 +1222,7 @@
     SUBDIR += reaver
     SUBDIR += recvnet
     SUBDIR += redir
+    SUBDIR += redpanda-connect
     SUBDIR += relayd
     SUBDIR += remarkable-devd
     SUBDIR += remmina
@@ -1360,10 +1366,13 @@
     SUBDIR += rubygem-nkf
     SUBDIR += rubygem-no_proxy_fix
     SUBDIR += rubygem-oauth
+    SUBDIR += rubygem-oauth-tty
+    SUBDIR += rubygem-oauth0
     SUBDIR += rubygem-oauth2
     SUBDIR += rubygem-oauth21
     SUBDIR += rubygem-octokit
     SUBDIR += rubygem-octokit4
+    SUBDIR += rubygem-octokit8
     SUBDIR += rubygem-octopress-deploy
     SUBDIR += rubygem-omniauth-auth0
     SUBDIR += rubygem-omniauth-authentiq
@@ -1616,6 +1625,8 @@
     SUBDIR += widentd
     SUBDIR += wifi-firmware-ath10k-kmod
     SUBDIR += wifi-firmware-ath11k-kmod
+    SUBDIR += wifi-firmware-ath12k-kmod
+    SUBDIR += wifi-firmware-iwlwifi-kmod
     SUBDIR += wifi-firmware-kmod
     SUBDIR += wifi-firmware-mt76-kmod
     SUBDIR += wifi-firmware-rtw88-kmod

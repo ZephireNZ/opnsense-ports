@@ -1,6 +1,15 @@
---- chrome/browser/ui/ui_features.h.orig	2024-04-19 13:02:56 UTC
+--- chrome/browser/ui/ui_features.h.orig	2024-07-30 11:12:21 UTC
 +++ chrome/browser/ui/ui_features.h
-@@ -264,7 +264,7 @@ BASE_DECLARE_FEATURE(kToolbarUseHardwareBitmapDraw);
+@@ -85,7 +85,7 @@ BASE_DECLARE_FEATURE(kAccessCodeCastUI);
+ 
+ BASE_DECLARE_FEATURE(kEvDetailsInPageInfo);
+ 
+-#if BUILDFLAG(IS_WIN) || BUILDFLAG(IS_MAC) || BUILDFLAG(IS_LINUX)
++#if BUILDFLAG(IS_WIN) || BUILDFLAG(IS_MAC) || BUILDFLAG(IS_LINUX) || BUILDFLAG(IS_BSD)
+ BASE_DECLARE_FEATURE(kFewerUpdateConfirmations);
+ #endif
+ 
+@@ -256,7 +256,7 @@ bool IsToolbarPinningEnabled();
  
  BASE_DECLARE_FEATURE(kTopChromeWebUIUsesSpareRenderer);
  

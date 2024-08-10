@@ -44,7 +44,6 @@
     SUBDIR += barnyard2
     SUBDIR += barnyard2-sguil
     SUBDIR += bastillion
-    SUBDIR += bcrypt
     SUBDIR += bcwipe
     SUBDIR += bdes
     SUBDIR += bearssl
@@ -151,6 +150,7 @@
     SUBDIR += enchive
     SUBDIR += eschalot
     SUBDIR += expiretable
+    SUBDIR += exploit-pattern
     SUBDIR += fakeident
     SUBDIR += fakeroot
     SUBDIR += farmhash
@@ -159,6 +159,7 @@
     SUBDIR += fiked
     SUBDIR += fizz
     SUBDIR += flawfinder
+    SUBDIR += flawz
     SUBDIR += fprint_demo
     SUBDIR += fprintd
     SUBDIR += fragroute
@@ -323,6 +324,7 @@
     SUBDIR += libssh
     SUBDIR += libssh2
     SUBDIR += libtasn1
+    SUBDIR += libtatsu
     SUBDIR += libtomcrypt
     SUBDIR += libu2f-host
     SUBDIR += libuecc
@@ -343,6 +345,19 @@
     SUBDIR += linux-c7-openssl-devel
     SUBDIR += linux-c7-p11-kit
     SUBDIR += linux-c7-trousers
+    SUBDIR += linux-rl9-ca-certificates
+    SUBDIR += linux-rl9-cyrus-sasl2
+    SUBDIR += linux-rl9-gnupg
+    SUBDIR += linux-rl9-gnutls
+    SUBDIR += linux-rl9-libassuan
+    SUBDIR += linux-rl9-libgcrypt
+    SUBDIR += linux-rl9-libgpg-error
+    SUBDIR += linux-rl9-libsecret
+    SUBDIR += linux-rl9-libtasn1
+    SUBDIR += linux-rl9-libxcrypt
+    SUBDIR += linux-rl9-nettle
+    SUBDIR += linux-rl9-nss
+    SUBDIR += linux-rl9-p11-kit
     SUBDIR += local-php-security-checker
     SUBDIR += logcheck
     SUBDIR += lua-argon2
@@ -402,6 +417,7 @@
     SUBDIR += obfs4proxy-tor
     SUBDIR += ocaml-cryptgps
     SUBDIR += ocaml-cryptokit
+    SUBDIR += ocaml-lwt_ssl
     SUBDIR += ocaml-ssl
     SUBDIR += oidentd
     SUBDIR += oinkmaster
@@ -415,6 +431,7 @@
     SUBDIR += openconnect-gui
     SUBDIR += opencryptoki
     SUBDIR += openct
+    SUBDIR += opendoas
     SUBDIR += openfhe
     SUBDIR += openfortivpn
     SUBDIR += openiked
@@ -552,7 +569,6 @@
     SUBDIR += p5-Crypt-MySQL
     SUBDIR += p5-Crypt-NULL
     SUBDIR += p5-Crypt-OFB
-    SUBDIR += p5-Crypt-OICQ
     SUBDIR += p5-Crypt-OTP
     SUBDIR += p5-Crypt-OpenPGP
     SUBDIR += p5-Crypt-OpenSSL-AES
@@ -708,7 +724,6 @@
     SUBDIR += p5-POE-Filter-SSL
     SUBDIR += p5-Parse-Snort
     SUBDIR += p5-PerlCryptLib
-    SUBDIR += p5-Protocol-ACME
     SUBDIR += p5-SAVI-Perl
     SUBDIR += p5-SHA
     SUBDIR += p5-Safe-Hole
@@ -810,6 +825,8 @@
     SUBDIR += php82-sodium
     SUBDIR += php83-filter
     SUBDIR += php83-sodium
+    SUBDIR += php84-filter
+    SUBDIR += php84-sodium
     SUBDIR += picocrypt
     SUBDIR += picosha2
     SUBDIR += pidgin-encryption
@@ -959,6 +976,7 @@
     SUBDIR += py-maec
     SUBDIR += py-merkletools
     SUBDIR += py-mixbox
+    SUBDIR += py-mkpasswd
     SUBDIR += py-mnemonic
     SUBDIR += py-msoffcrypto-tool
     SUBDIR += py-muacrypt
@@ -1096,6 +1114,7 @@
     SUBDIR += rubygem-bcrypt
     SUBDIR += rubygem-bcrypt-ruby
     SUBDIR += rubygem-bcrypt_pbkdf
+    SUBDIR += rubygem-cancancan
     SUBDIR += rubygem-cose
     SUBDIR += rubygem-cvss-suite
     SUBDIR += rubygem-declarative_policy
@@ -1108,6 +1127,7 @@
     SUBDIR += rubygem-digest
     SUBDIR += rubygem-digest-crc
     SUBDIR += rubygem-doorkeeper
+    SUBDIR += rubygem-doorkeeper-device_authorization_grant
     SUBDIR += rubygem-doorkeeper-openid_connect
     SUBDIR += rubygem-doorkeeper-rails5
     SUBDIR += rubygem-doorkeeper-rails50
@@ -1171,6 +1191,7 @@
     SUBDIR += rubygem-pbkdf2-ruby
     SUBDIR += rubygem-pundit
     SUBDIR += rubygem-pundit61
+    SUBDIR += rubygem-pwned
     SUBDIR += rubygem-pyu-ruby-sasl
     SUBDIR += rubygem-rack-oauth2
     SUBDIR += rubygem-rack-oauth21
@@ -1221,6 +1242,7 @@
     SUBDIR += rubygem-vault
     SUBDIR += rubygem-webauthn
     SUBDIR += rubygem-webpush
+    SUBDIR += rustls-ffi
     SUBDIR += rustscan
     SUBDIR += s2n-tls
     SUBDIR += safesh
@@ -1249,7 +1271,6 @@
     SUBDIR += signify
     SUBDIR += signing-party
     SUBDIR += silktools
-    SUBDIR += sks
     SUBDIR += smurflog
     SUBDIR += sniffglue
     SUBDIR += snoopy
@@ -1368,6 +1389,7 @@
     SUBDIR += wolfssl
     SUBDIR += wpa_supplicant
     SUBDIR += wpa_supplicant-devel
+    SUBDIR += wpa_supplicant210
     SUBDIR += wpa_supplicant29
     SUBDIR += xca
     SUBDIR += xhash

@@ -1,6 +1,6 @@
 PORTNAME=	luminance-hdr
 DISTVERSION=	2.6.1.1
-PORTREVISION=	25
+PORTREVISION=	26
 CATEGORIES=	graphics
 MASTER_SITES=	SF/qtpfsgui/luminance/${DISTVERSION}
 
@@ -40,6 +40,10 @@ CFITSIO_LIB_DEPENDS=	libcfitsio.so:astro/cfitsio
 HELPBROWSER_DESC=	Build help browser (requires QtWebEngine)
 HELPBROWSER_USE=	QT=webchannel,webengine
 HELPBROWSER_CMAKE_BOOL=	WITH_HELPBROWSER
+
+.if !exists(/usr/include/omp.h)
+USES+=	compiler:gcc-c++11-lib
+.endif
 
 .include <bsd.port.options.mk>
 

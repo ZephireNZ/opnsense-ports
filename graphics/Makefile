@@ -154,6 +154,7 @@
     SUBDIR += dspdfviewer
     SUBDIR += dssim
     SUBDIR += duhdraw
+    SUBDIR += durdraw
     SUBDIR += dust3d
     SUBDIR += dynamechs
     SUBDIR += ebsynth
@@ -161,7 +162,6 @@
     SUBDIR += egl-wayland
     SUBDIR += eglexternalplatform
     SUBDIR += elastix
-    SUBDIR += electricsheep
     SUBDIR += elementary-photos
     SUBDIR += embree
     SUBDIR += enblend
@@ -363,7 +363,6 @@
     SUBDIR += inkscape
     SUBDIR += inkscape-open-symbols
     SUBDIR += instant-meshes
-    SUBDIR += intel-backlight
     SUBDIR += intergif
     SUBDIR += ipe
     SUBDIR += jalbum
@@ -541,6 +540,24 @@
     SUBDIR += linux-c7-sdl_ttf
     SUBDIR += linux-c7-tiff
     SUBDIR += linux-c7-wayland
+    SUBDIR += linux-rl9-cairo
+    SUBDIR += linux-rl9-cairo-gobject
+    SUBDIR += linux-rl9-dri
+    SUBDIR += linux-rl9-gdk-pixbuf2
+    SUBDIR += linux-rl9-graphite2
+    SUBDIR += linux-rl9-jasper
+    SUBDIR += linux-rl9-jbigkit
+    SUBDIR += linux-rl9-jpeg
+    SUBDIR += linux-rl9-libdrm
+    SUBDIR += linux-rl9-libepoxy
+    SUBDIR += linux-rl9-libglvnd
+    SUBDIR += linux-rl9-librsvg2
+    SUBDIR += linux-rl9-openjpeg
+    SUBDIR += linux-rl9-png
+    SUBDIR += linux-rl9-tiff
+    SUBDIR += linux-rl9-vulkan
+    SUBDIR += linux-rl9-wayland
+    SUBDIR += linux-rl9-webp
     SUBDIR += lua-gd
     SUBDIR += luminance-qt5
     SUBDIR += lux
@@ -601,6 +618,8 @@
     SUBDIR += ocaml-images
     SUBDIR += ocaml-lablgl
     SUBDIR += ocrad
+    SUBDIR += ocrs
+    SUBDIR += oculante
     SUBDIR += ogre3d
     SUBDIR += ogre3d19
     SUBDIR += oidn
@@ -752,7 +771,6 @@
     SUBDIR += p5-VCG
     SUBDIR += p5-Visio
     SUBDIR += p5-feedgnuplot
-    SUBDIR += p5-ming
     SUBDIR += panoglview
     SUBDIR += panomatic
     SUBDIR += partio
@@ -769,6 +787,7 @@
     SUBDIR += pear-Image_Graph
     SUBDIR += pear-Image_GraphViz
     SUBDIR += pear-Image_Transform
+    SUBDIR += pecl-geospatial
     SUBDIR += pecl-imagick
     SUBDIR += pecl-qrencode
     SUBDIR += pecl-vips
@@ -792,6 +811,8 @@
     SUBDIR += php82-gd
     SUBDIR += php83-exif
     SUBDIR += php83-gd
+    SUBDIR += php84-exif
+    SUBDIR += php84-gd
     SUBDIR += phplot
     SUBDIR += picpuz
     SUBDIR += piddle
@@ -846,6 +867,7 @@
     SUBDIR += py-PyOpenGL
     SUBDIR += py-PyOpenGL-accelerate
     SUBDIR += py-actdiag
+    SUBDIR += py-albucore
     SUBDIR += py-albumentations
     SUBDIR += py-altair
     SUBDIR += py-asciitree
@@ -863,7 +885,9 @@
     SUBDIR += py-colorthief
     SUBDIR += py-colorz
     SUBDIR += py-colour
+    SUBDIR += py-contextily
     SUBDIR += py-descartes
+    SUBDIR += py-diplib
     SUBDIR += py-django-easy-thumbnails
     SUBDIR += py-djvulibre
     SUBDIR += py-exifread
@@ -877,6 +901,7 @@
     SUBDIR += py-gdal
     SUBDIR += py-geomdl
     SUBDIR += py-geopandas
+    SUBDIR += py-geosnap
     SUBDIR += py-giddy
     SUBDIR += py-gizeh
     SUBDIR += py-glcontext
@@ -892,6 +917,7 @@
     SUBDIR += py-haishoku
     SUBDIR += py-hiplot
     SUBDIR += py-hsluv
+    SUBDIR += py-imagecodecs
     SUBDIR += py-imageio
     SUBDIR += py-imageio-ffmpeg
     SUBDIR += py-imagesize
@@ -903,7 +929,6 @@
     SUBDIR += py-mayavi
     SUBDIR += py-mcomix
     SUBDIR += py-mgwr
-    SUBDIR += py-ming
     SUBDIR += py-moderngl
     SUBDIR += py-moderngl-window
     SUBDIR += py-momepy
@@ -927,6 +952,7 @@
     SUBDIR += py-png
     SUBDIR += py-pointpats
     SUBDIR += py-projpicker
+    SUBDIR += py-proplot
     SUBDIR += py-pycha
     SUBDIR += py-pycollada
     SUBDIR += py-pydot
@@ -994,6 +1020,7 @@
     SUBDIR += qcustomplot
     SUBDIR += qgis
     SUBDIR += qgis-ltr
+    SUBDIR += qimgv
     SUBDIR += qiv
     SUBDIR += qr-code-generator
     SUBDIR += qt5-3d
@@ -1066,7 +1093,7 @@
     SUBDIR += rubygem-imagesize
     SUBDIR += rubygem-invisible_captcha
     SUBDIR += rubygem-mini_magick
-    SUBDIR += rubygem-mini_magick410
+    SUBDIR += rubygem-mini_magick4
     SUBDIR += rubygem-opengl
     SUBDIR += rubygem-pdfkit
     SUBDIR += rubygem-png
@@ -1128,10 +1155,10 @@
     SUBDIR += ssocr
     SUBDIR += sswf
     SUBDIR += stamp
-    SUBDIR += svg2pdf
     SUBDIR += svg2png
     SUBDIR += svgalib
     SUBDIR += svgbob
+    SUBDIR += svgpp
     SUBDIR += swappy
     SUBDIR += swfmill
     SUBDIR += swftools
@@ -1175,7 +1202,6 @@
     SUBDIR += vips
     SUBDIR += visprint
     SUBDIR += viu
-    SUBDIR += vkd3d
     SUBDIR += volpack
     SUBDIR += vp
     SUBDIR += vpaint
@@ -1194,7 +1220,6 @@
     SUBDIR += wayland-protocols
     SUBDIR += wayland-utils
     SUBDIR += waylandpp
-    SUBDIR += wdune
     SUBDIR += webp
     SUBDIR += webp-pixbuf-loader
     SUBDIR += wings
@@ -1225,7 +1250,6 @@
     SUBDIR += xpeps
     SUBDIR += xpx
     SUBDIR += xsane
-    SUBDIR += xsvg
     SUBDIR += xtexcad
     SUBDIR += xv
     SUBDIR += xv-m17n
@@ -1243,9 +1267,9 @@
     SUBDIR += zathura-pdf-poppler
     SUBDIR += zathura-ps
     SUBDIR += zbar
+    SUBDIR += zeno
     SUBDIR += zgv
     SUBDIR += zimg
     SUBDIR += zint
-    SUBDIR += zphoto
 
 .include <bsd.port.subdir.mk>

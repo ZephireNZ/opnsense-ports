@@ -98,12 +98,16 @@
     SUBDIR += linux-c7-freetype
     SUBDIR += linux-c7-harfbuzz
     SUBDIR += linux-jabref
+    SUBDIR += linux-rl9-cups-libs
+    SUBDIR += linux-rl9-freetype
+    SUBDIR += linux-rl9-harfbuzz
     SUBDIR += lout
     SUBDIR += lprps
     SUBDIR += lyx
     SUBDIR += magicfilter
     SUBDIR += makeindex
     SUBDIR += mftrace
+    SUBDIR += microtex
     SUBDIR += miktex
     SUBDIR += min12xxw
     SUBDIR += mp-a4
@@ -125,7 +129,6 @@
     SUBDIR += p5-XML-ApacheFOP
     SUBDIR += p5-XML-Handler-AxPoint
     SUBDIR += p910nd
-    SUBDIR += panda
     SUBDIR += papersize-default-a4
     SUBDIR += papersize-default-letter
     SUBDIR += paps

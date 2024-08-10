@@ -1,6 +1,6 @@
 PORTNAME=	deadbeef
 PORTVERSION=	0.7.2
-PORTREVISION=	27
+PORTREVISION=	28
 CATEGORIES=	audio
 MASTER_SITES=	SF/${PORTNAME}/
 
@@ -10,6 +10,8 @@ WWW=		http://deadbeef.sourceforge.net/
 
 LICENSE=	GPLv2 LGPL21
 LICENSE_COMB=	dual
+
+BROKEN=		unfetchable
 
 GNU_CONFIGURE=	yes
 USES=		compiler:c11 desktop-file-utils gettext gmake gnome iconv \
@@ -125,6 +127,7 @@ HOTKEYS_CONFIGURE_OFF=	--disable-hotkeys
 OGG_LIB_DEPENDS=	libvorbis.so:audio/libvorbis
 OGG_CONFIGURE_OFF=	--disable-vorbis
 
+FFMPEG_BROKEN=		fails to compile
 FFMPEG_LIB_DEPENDS=	libavcodec.so:multimedia/ffmpeg \
 		libavformat.so:multimedia/ffmpeg \
 		libavutil.so:multimedia/ffmpeg
@@ -196,7 +199,7 @@ WMA_CONFIGURE_OFF=		--disable-wma
 .include <bsd.port.options.mk>
 
 .if !${PORT_OPTIONS:MGTK2} && !${PORT_OPTIONS:MGTK3}
-PORT_OPTIONS:=          ${PORT_OPTIONS:NGUI}
+PORT_OPTIONS:=		${PORT_OPTIONS:NGUI}
 .endif
 
 .if !${PORT_OPTIONS:MMAD} && !${PORT_OPTIONS:MMPG123}
@@ -204,6 +207,10 @@ CONFIGURE_ARGS+=	--disable-mp3
 PLIST_SUB+=		MP3="@comment "
 .else
 PLIST_SUB+=		MP3=""
+.endif
+
+.if ${PORT_OPTIONS:MCDDA}
+DEPRECATED=	CDDA depends on expired audio/libcddb
 .endif
 
 post-patch:

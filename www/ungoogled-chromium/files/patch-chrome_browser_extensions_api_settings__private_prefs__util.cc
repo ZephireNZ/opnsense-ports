@@ -1,7 +1,7 @@
---- chrome/browser/extensions/api/settings_private/prefs_util.cc.orig	2024-04-23 07:42:17 UTC
+--- chrome/browser/extensions/api/settings_private/prefs_util.cc.orig	2024-07-31 14:19:23 UTC
 +++ chrome/browser/extensions/api/settings_private/prefs_util.cc
-@@ -202,7 +202,7 @@ const PrefsUtil::TypedPrefMap& PrefsUtil::GetAllowlist
-   (*s_allowlist)[::prefs::kSidePanelHorizontalAlignment] =
+@@ -200,7 +200,7 @@ const PrefsUtil::TypedPrefMap& PrefsUtil::GetAllowlist
+   (*s_allowlist)[tab_groups::prefs::kAutoPinNewTabGroups] =
        settings_api::PrefType::kBoolean;
  
 -#if BUILDFLAG(IS_LINUX)

@@ -72,6 +72,8 @@
     SUBDIR += libzip
     SUBDIR += libzippp
     SUBDIR += linux-c7-lz4
+    SUBDIR += linux-rl9-brotli
+    SUBDIR += linux-rl9-lz4
     SUBDIR += lizard
     SUBDIR += lrzip
     SUBDIR += lua-lzlib
@@ -139,7 +141,6 @@
     SUBDIR += p5-PerlIO-gzip
     SUBDIR += p5-PerlIO-via-Bzip2
     SUBDIR += packddir
-    SUBDIR += paq
     SUBDIR += par
     SUBDIR += par2cmdline
     SUBDIR += par2cmdline-turbo
@@ -153,6 +154,7 @@
     SUBDIR += peazip
     SUBDIR += pecl-lzf
     SUBDIR += pecl-rar
+    SUBDIR += pecl-zstd
     SUBDIR += php-brotli
     SUBDIR += php-horde_lz4
     SUBDIR += php-lz4
@@ -170,17 +172,21 @@
     SUBDIR += php83-phar
     SUBDIR += php83-zip
     SUBDIR += php83-zlib
+    SUBDIR += php84-bz2
+    SUBDIR += php84-phar
+    SUBDIR += php84-zip
+    SUBDIR += php84-zlib
     SUBDIR += pigz
     SUBDIR += pixz
     SUBDIR += plzip
     SUBDIR += ppmd
     SUBDIR += ppunpack
-    SUBDIR += pxz
     SUBDIR += py-acefile
     SUBDIR += py-bitshuffle
     SUBDIR += py-blosc2
     SUBDIR += py-borgbackup
     SUBDIR += py-borgbackup11
+    SUBDIR += py-borgbackup12
     SUBDIR += py-brotli
     SUBDIR += py-brotlicffi
     SUBDIR += py-brotlipy
@@ -275,7 +281,6 @@
     SUBDIR += xarchiver
     SUBDIR += xdms
     SUBDIR += xmill
-    SUBDIR += xpk
     SUBDIR += zchunk
     SUBDIR += zip
     SUBDIR += zipmix

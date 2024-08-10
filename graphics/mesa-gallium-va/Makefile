@@ -1,6 +1,5 @@
 PORTNAME=	mesa-gallium-va
 PORTVERSION=	${MESAVERSION}
-PORTREVISION=	3
 CATEGORIES=	graphics
 
 COMMENT=	Mesa Gallium VAAPI drivers
@@ -60,5 +59,4 @@ MESON_ARGS+=	-Dglx=disabled \
 		-Dplatforms=""
 .endif
 
-.include "${MASTERDIR}/Makefile.targets"
 .include <bsd.port.post.mk>

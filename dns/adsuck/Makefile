@@ -1,6 +1,6 @@
 PORTNAME=	adsuck
 PORTVERSION=	2.3
-PORTREVISION=	10
+PORTREVISION=	11
 CATEGORIES=	dns
 MASTER_SITES=	http://opensource.conformal.com/snapshots/adsuck/ \
 		http://philpep.org/pub/
@@ -9,6 +9,9 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	phil@philpep.org
 COMMENT=	DNS relay for ad blocking
 WWW=		http://opensource.conformal.com/wiki/Adsuck
+
+DEPRECATED=	Obsolete, no longer relevant
+EXPIRATION_DATE=2024-05-31
 
 LICENSE=	ISCL
 

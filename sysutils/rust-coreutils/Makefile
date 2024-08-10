@@ -1,5 +1,5 @@
 PORTNAME=	rust-coreutils
-DISTVERSION=	0.0.25
+DISTVERSION=	0.0.27
 CATEGORIES=	sysutils
 
 MAINTAINER=	pkubaj@FreeBSD.org

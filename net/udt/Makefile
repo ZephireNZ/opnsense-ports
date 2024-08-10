@@ -1,11 +1,11 @@
 PORTNAME=	udt
 PORTVERSION=	4.11
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	net
 MASTER_SITES=	SF
 DISTNAME=	udt.sdk.${PORTVERSION}
 
-MAINTAINER=	mi@aldan.algebra.com
+MAINTAINER=	ports@virtual-estates.net
 COMMENT=	C++ library containing the UDT API implementation
 WWW=		http://udt.sourceforge.net/
 
@@ -21,6 +21,8 @@ USES=		uidfix
 OPTIONS_DEFINE=	DOCS
 
 DOCS_VARS_OFF=	EXTRACT_AFTER_ARGS+="--exclude udt${PORTVERSION:R}/doc"
+
+CXXFLAGS+=	-Wno-error=vla-cxx-extension
 
 post-build:
 	# Building sample applications:

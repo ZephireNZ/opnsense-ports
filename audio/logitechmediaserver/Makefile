@@ -1,5 +1,5 @@
 PORTNAME=	logitechmediaserver
-DISTVERSION=	8.5.0
+DISTVERSION=	8.5.2
 CATEGORIES=	audio
 
 MAINTAINER=	trueos@norwegianrockcat.com
@@ -22,8 +22,8 @@ RUN_DEPENDS=	p5-IO-Socket-SSL>=0:security/p5-IO-Socket-SSL
 
 USES=		gettext-runtime gmake perl5 shebangfix
 USE_GITHUB=	yes
-GH_TUPLE=	LMS-Community:slimserver:8762186a4 \
-		LMS-Community:slimserver-vendor:5bb7355:vendor
+GH_TUPLE=	LMS-Community:slimserver:88ba56f \
+		LMS-Community:slimserver-vendor:384095c:vendor
 USE_RC_SUBR=	logitechmediaserver
 SHEBANG_FILES=	Bin/darwin/check-update.pl \
 		CPAN/Log/Log4perl/Layout/PatternLayout/Multiline.pm \
@@ -36,6 +36,8 @@ SHEBANG_FILES=	Bin/darwin/check-update.pl \
 		scanner.pl \
 		slimserver.pl \
 		${WRKSRC_vendor}/CPAN/hints/darwin.pl
+
+PORTSCOUT=	skipv:10.0.3,10.0.4,release-10.0.0.0
 
 SUB_FILES=	Custom.pm \
 		custom-convert.conf \

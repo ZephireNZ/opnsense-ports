@@ -1,5 +1,6 @@
     COMMENT = Emulators for other operating systems
 
+    SUBDIR += 86Box
     SUBDIR += adamem
     SUBDIR += almostti
     SUBDIR += anese
@@ -66,7 +67,9 @@
     SUBDIR += linux-c7
     SUBDIR += linux-power10-functional-sim
     SUBDIR += linux-power9-functional-sim
+    SUBDIR += linux-rl9
     SUBDIR += linux_base-c7
+    SUBDIR += linux_base-rl9
     SUBDIR += magia
     SUBDIR += mame
     SUBDIR += mastergear
@@ -113,7 +116,7 @@
     SUBDIR += qemu-powernv
     SUBDIR += qemu-user-static
     SUBDIR += qemu-user-static-devel
-    SUBDIR += qemu7
+    SUBDIR += qemu8
     SUBDIR += qmc2
     SUBDIR += quasi88
     SUBDIR += reicast

@@ -62,6 +62,7 @@
     SUBDIR += font-aozoramincho
     SUBDIR += font-ayu18
     SUBDIR += font-ayu20
+    SUBDIR += font-bizud-mincho
     SUBDIR += font-cica
     SUBDIR += font-elisa10
     SUBDIR += font-elisa8
@@ -222,7 +223,11 @@
     SUBDIR += plain2
     SUBDIR += plan
     SUBDIR += prn
+    SUBDIR += py-SudachiPy
+    SUBDIR += py-fugashi
+    SUBDIR += py-ipadic
     SUBDIR += py-jaconv
+    SUBDIR += py-unidic
     SUBDIR += qkc
     SUBDIR += qolibri
     SUBDIR += quit
@@ -261,6 +266,7 @@
     SUBDIR += sourcehanserif-otf
     SUBDIR += spoqahansans-ttf
     SUBDIR += srd-fpw-package
+    SUBDIR += sudachi
     SUBDIR += suicavalue
     SUBDIR += tdiary
     SUBDIR += tegaki-zinnia-japanese

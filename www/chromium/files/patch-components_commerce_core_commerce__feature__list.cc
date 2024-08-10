@@ -1,4 +1,4 @@
---- components/commerce/core/commerce_feature_list.cc.orig	2024-03-22 08:19:40 UTC
+--- components/commerce/core/commerce_feature_list.cc.orig	2024-07-30 11:12:21 UTC
 +++ components/commerce/core/commerce_feature_list.cc
 @@ -168,7 +168,7 @@ BASE_FEATURE(kPriceInsights,
               "PriceInsights",

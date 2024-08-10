@@ -1,9 +1,7 @@
 PORTNAME=	notes
-PORTVERSION=	4.9.4
+PORTVERSION=	4.10.1
 DISTVERSIONPREFIX=	v
 CATEGORIES=	www editors
-MASTER_SITES=	https://github.com/nextcloud/${PORTNAME}/releases/download/${DISTVERSIONPREFIX}${PORTVERSION}/
-DISTNAME=	${PORTNAME}
 
 MAINTAINER=	brnrd@FreeBSD.org
 COMMENT=	Notes app for Nextcloud

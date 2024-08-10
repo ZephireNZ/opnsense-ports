@@ -60,6 +60,7 @@
     SUBDIR += fastqc
     SUBDIR += fasttree
     SUBDIR += fastx-toolkit
+    SUBDIR += fermi-lite
     SUBDIR += figtree
     SUBDIR += flash
     SUBDIR += fluctuate
@@ -71,6 +72,7 @@
     SUBDIR += generand
     SUBDIR += gff2ps
     SUBDIR += gffread
+    SUBDIR += gkl
     SUBDIR += gmap
     SUBDIR += gperiodic
     SUBDIR += graphlan
@@ -142,7 +144,6 @@
     SUBDIR += p5-transdecoder
     SUBDIR += paml
     SUBDIR += pbbam
-    SUBDIR += pbseqan
     SUBDIR += peak-classifier
     SUBDIR += pear-merger
     SUBDIR += phrap

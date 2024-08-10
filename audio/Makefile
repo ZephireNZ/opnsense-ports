@@ -35,7 +35,6 @@
     SUBDIR += asmixer
     SUBDIR += asterisk-espeak
     SUBDIR += asterisk-flite
-    SUBDIR += asunder
     SUBDIR += atracdenc
     SUBDIR += atunes
     SUBDIR += aubio
@@ -71,7 +70,6 @@
     SUBDIR += bslizr-lv2
     SUBDIR += cadence
     SUBDIR += calf-lv2
-    SUBDIR += cam
     SUBDIR += cantata
     SUBDIR += caps-lv2
     SUBDIR += caps-plugins
@@ -134,7 +132,6 @@
     SUBDIR += elisa
     SUBDIR += emms
     SUBDIR += enscribe
-    SUBDIR += epos-devel
     SUBDIR += eq10q-lv2
     SUBDIR += espeak-ng
     SUBDIR += espressivo-lv2
@@ -390,7 +387,6 @@
     SUBDIR += libshairport
     SUBDIR += libshout
     SUBDIR += libsidplay
-    SUBDIR += libsidplay2
     SUBDIR += libsidplayfp
     SUBDIR += libsmf
     SUBDIR += libsndfile
@@ -418,6 +414,19 @@
     SUBDIR += linux-c7-pulseaudio-utils
     SUBDIR += linux-c7-sdl_mixer
     SUBDIR += linux-laudio
+    SUBDIR += linux-rl9-alsa-lib
+    SUBDIR += linux-rl9-alsa-lib-devel
+    SUBDIR += linux-rl9-alsa-plugins-oss
+    SUBDIR += linux-rl9-alsa-plugins-pulseaudio
+    SUBDIR += linux-rl9-flac
+    SUBDIR += linux-rl9-gsm
+    SUBDIR += linux-rl9-libogg
+    SUBDIR += linux-rl9-libsndfile
+    SUBDIR += linux-rl9-libvorbis
+    SUBDIR += linux-rl9-openal-soft
+    SUBDIR += linux-rl9-opus
+    SUBDIR += linux-rl9-pulseaudio-libs
+    SUBDIR += linux-rl9-pulseaudio-utils
     SUBDIR += linuxsampler
     SUBDIR += linuxwave
     SUBDIR += liquidsfz
@@ -481,7 +490,6 @@
     SUBDIR += mp3guessenc
     SUBDIR += mp3lint
     SUBDIR += mp3mover
-    SUBDIR += mp3plot
     SUBDIR += mp3riot
     SUBDIR += mp3splt
     SUBDIR += mp3stat
@@ -527,8 +535,6 @@
     SUBDIR += openal-soft
     SUBDIR += opencore-amr
     SUBDIR += openspc
-    SUBDIR += optimfrog
-    SUBDIR += optimfrog-sse2
     SUBDIR += opus
     SUBDIR += opus-tools
     SUBDIR += opusfile
@@ -578,6 +584,7 @@
     SUBDIR += padthv1-lv2
     SUBDIR += paman
     SUBDIR += pamixer
+    SUBDIR += pandaresampler
     SUBDIR += paprefs
     SUBDIR += pasystray
     SUBDIR += patchage
@@ -659,6 +666,7 @@
     SUBDIR += py-python-mpd2
     SUBDIR += py-pyttsx3
     SUBDIR += py-resampy
+    SUBDIR += py-samplerate
     SUBDIR += py-simpleaudio
     SUBDIR += py-soundcloud
     SUBDIR += py-sounddevice
@@ -687,7 +695,6 @@
     SUBDIR += raul
     SUBDIR += rawrec
     SUBDIR += re
-    SUBDIR += rebot3
     SUBDIR += resid
     SUBDIR += rexima
     SUBDIR += rezound
@@ -730,8 +737,6 @@
     SUBDIR += shntool
     SUBDIR += shortwave
     SUBDIR += shuriken
-    SUBDIR += sidplay
-    SUBDIR += sidplay2
     SUBDIR += sidplayer
     SUBDIR += sidplayfp
     SUBDIR += simplemod
@@ -789,7 +794,6 @@
     SUBDIR += synthpod-lv2
     SUBDIR += synthv1-lv2
     SUBDIR += taglib
-    SUBDIR += taglookup
     SUBDIR += tagutil
     SUBDIR += tamgamp-lv2
     SUBDIR += tap-plugins
@@ -877,6 +881,7 @@
     SUBDIR += xsynth-dssi
     SUBDIR += xuidesigner
     SUBDIR += xwave
+    SUBDIR += xwax
     SUBDIR += yell
     SUBDIR += ympd
     SUBDIR += yoshimi

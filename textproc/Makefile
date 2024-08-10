@@ -29,8 +29,10 @@
     SUBDIR += R-cran-spelling
     SUBDIR += R-cran-stringi
     SUBDIR += R-cran-stringr
+    SUBDIR += R-cran-tth
     SUBDIR += R-cran-utf8
     SUBDIR += R-cran-vroom
+    SUBDIR += R-cran-writexl
     SUBDIR += R-cran-xml2
     SUBDIR += R-cran-xmlparsedata
     SUBDIR += R-cran-xtable
@@ -58,6 +60,7 @@
     SUBDIR += apache-xmlbeans
     SUBDIR += apertium
     SUBDIR += apertium-eng
+    SUBDIR += aq
     SUBDIR += arianna
     SUBDIR += asciidoc
     SUBDIR += asm-xml
@@ -145,7 +148,6 @@
     SUBDIR += dictfmt
     SUBDIR += dictionary
     SUBDIR += diff-so-fancy
-    SUBDIR += diffmark
     SUBDIR += diffsplit
     SUBDIR += diffstat
     SUBDIR += difftastic
@@ -344,6 +346,7 @@
     SUBDIR += jo
     SUBDIR += jq
     SUBDIR += jql
+    SUBDIR += jqp
     SUBDIR += jrefentry
     SUBDIR += jshon
     SUBDIR += json-yaml
@@ -379,6 +382,7 @@
     SUBDIR += lasem
     SUBDIR += latex-service
     SUBDIR += latex2html
+    SUBDIR += lexilla
     SUBDIR += libabw
     SUBDIR += libcroco
     SUBDIR += libcss
@@ -398,7 +402,6 @@
     SUBDIR += libkmfl
     SUBDIR += libkolabxml
     SUBDIR += libkomparediff2
-    SUBDIR += liblingoteach
     SUBDIR += liblrdf
     SUBDIR += libmrss
     SUBDIR += libmwaw03
@@ -440,6 +443,9 @@
     SUBDIR += linux-c7-libcroco
     SUBDIR += linux-c7-libxml2
     SUBDIR += linux-c7-libxslt
+    SUBDIR += linux-rl9-expat
+    SUBDIR += linux-rl9-libxml2
+    SUBDIR += linux-rl9-libxslt
     SUBDIR += linuxdoc
     SUBDIR += linuxdoc-tools
     SUBDIR += localize
@@ -475,7 +481,6 @@
     SUBDIR += mdocml
     SUBDIR += meilisearch
     SUBDIR += meld
-    SUBDIR += mergestat
     SUBDIR += metauml
     SUBDIR += mgdiff
     SUBDIR += mi-aspell
@@ -516,6 +521,7 @@
     SUBDIR += ocaml-csv
     SUBDIR += ocaml-expat
     SUBDIR += ocaml-text
+    SUBDIR += ocaml-yojson
     SUBDIR += odt2txt
     SUBDIR += openfts
     SUBDIR += openjade
@@ -1078,7 +1084,6 @@
     SUBDIR += p5-XML-DTDParser
     SUBDIR += p5-XML-Declare
     SUBDIR += p5-XML-Descent
-    SUBDIR += p5-XML-DifferenceMarkup
     SUBDIR += p5-XML-Directory
     SUBDIR += p5-XML-DoubleEncodedEntities
     SUBDIR += p5-XML-Driver-HTML
@@ -1245,7 +1250,9 @@
     SUBDIR += pear-XML_HTMLSax
     SUBDIR += pear-XML_Wddx
     SUBDIR += pear-YAML
+    SUBDIR += pecl-pspell
     SUBDIR += pecl-xdiff2
+    SUBDIR += pecl-xlswriter
     SUBDIR += pecl-yaml
     SUBDIR += pecl-zephir_parser
     SUBDIR += peco
@@ -1278,6 +1285,14 @@
     SUBDIR += php83-xmlreader
     SUBDIR += php83-xmlwriter
     SUBDIR += php83-xsl
+    SUBDIR += php84-ctype
+    SUBDIR += php84-dom
+    SUBDIR += php84-enchant
+    SUBDIR += php84-simplexml
+    SUBDIR += php84-xml
+    SUBDIR += php84-xmlreader
+    SUBDIR += php84-xmlwriter
+    SUBDIR += php84-xsl
     SUBDIR += pict
     SUBDIR += po4a
     SUBDIR += pod2mdoc
@@ -1371,6 +1386,7 @@
     SUBDIR += py-gensim
     SUBDIR += py-gi-docgen
     SUBDIR += py-grapheme
+    SUBDIR += py-grep-ast
     SUBDIR += py-griffe
     SUBDIR += py-guess-language
     SUBDIR += py-hashids
@@ -1434,6 +1450,7 @@
     SUBDIR += py-mistune2
     SUBDIR += py-mkdocs
     SUBDIR += py-mkdocs-autorefs
+    SUBDIR += py-mkdocs-get-deps
     SUBDIR += py-mkdocs-git-revision-date-localized-plugin
     SUBDIR += py-mkdocs-material
     SUBDIR += py-mkdocs-material-extensions
@@ -1470,6 +1487,7 @@
     SUBDIR += py-paragrep
     SUBDIR += py-parse
     SUBDIR += py-parse-type
+    SUBDIR += py-parsec
     SUBDIR += py-parsel
     SUBDIR += py-parsimonious
     SUBDIR += py-parso
@@ -1508,6 +1526,7 @@
     SUBDIR += py-pypa-docs-theme
     SUBDIR += py-pypandoc
     SUBDIR += py-pyphen
+    SUBDIR += py-pyrss2gen
     SUBDIR += py-pyscss
     SUBDIR += py-pysrt
     SUBDIR += py-pystache
@@ -1542,11 +1561,11 @@
     SUBDIR += py-restructuredtext-lint
     SUBDIR += py-reverend
     SUBDIR += py-rich
+    SUBDIR += py-rich-argparse
     SUBDIR += py-rich-cli
     SUBDIR += py-rich-rst
     SUBDIR += py-rich12
     SUBDIR += py-rnc2rng
-    SUBDIR += py-rss2gen
     SUBDIR += py-rst2ansi
     SUBDIR += py-rst2html5
     SUBDIR += py-scour
@@ -1633,6 +1652,7 @@
     SUBDIR += py-tomlkit
     SUBDIR += py-toronado
     SUBDIR += py-towncrier
+    SUBDIR += py-towncrier23
     SUBDIR += py-trans
     SUBDIR += py-translationstring
     SUBDIR += py-transpopy
@@ -1773,6 +1793,7 @@
     SUBDIR += rubygem-elasticsearch-model713
     SUBDIR += rubygem-elasticsearch-persistence
     SUBDIR += rubygem-elasticsearch-rails
+    SUBDIR += rubygem-elasticsearch-rails7
     SUBDIR += rubygem-elasticsearch-transport
     SUBDIR += rubygem-elasticsearch-transport713
     SUBDIR += rubygem-elasticsearch-xpack
@@ -1841,7 +1862,6 @@
     SUBDIR += rubygem-multi_xml
     SUBDIR += rubygem-nokogiri
     SUBDIR += rubygem-nokogiri-diff
-    SUBDIR += rubygem-nokogiri111
     SUBDIR += rubygem-nokogumbo
     SUBDIR += rubygem-octopress-escape-code
     SUBDIR += rubygem-opml
@@ -1877,12 +1897,14 @@
     SUBDIR += rubygem-representable
     SUBDIR += rubygem-reverse_markdown
     SUBDIR += rubygem-rexml
+    SUBDIR += rubygem-rexml32
     SUBDIR += rubygem-ri_cal
     SUBDIR += rubygem-rly
     SUBDIR += rubygem-rmmseg-cpp
     SUBDIR += rubygem-ronn
     SUBDIR += rubygem-rouge
     SUBDIR += rubygem-rouge3
+    SUBDIR += rubygem-rouge42
     SUBDIR += rubygem-rttool
     SUBDIR += rubygem-ruby-augeas
     SUBDIR += rubygem-ruby-xslt
@@ -1908,7 +1930,6 @@
     SUBDIR += rubygem-sassc-rails-rails60
     SUBDIR += rubygem-sassc-rails-rails61
     SUBDIR += rubygem-sassc-rails-rails70
-    SUBDIR += rubygem-sassc22
     SUBDIR += rubygem-sax-machine
     SUBDIR += rubygem-scss_lint
     SUBDIR += rubygem-shell2html
@@ -2009,6 +2030,7 @@
     SUBDIR += stardict-dictd_mova
     SUBDIR += stardict-rptts
     SUBDIR += stardict3
+    SUBDIR += sttr
     SUBDIR += sv-aspell
     SUBDIR += sv-hunspell
     SUBDIR += sv-mythes
@@ -2053,6 +2075,7 @@
     SUBDIR += ts-hunspell
     SUBDIR += tth
     SUBDIR += tttcmds
+    SUBDIR += ttynt
     SUBDIR += turboxsl
     SUBDIR += txt2html
     SUBDIR += txt2man
@@ -2114,6 +2137,7 @@
     SUBDIR += xlhtml
     SUBDIR += xlnt
     SUBDIR += xlreader
+    SUBDIR += xlsxio
     SUBDIR += xml-commons
     SUBDIR += xml-format
     SUBDIR += xml-lite.el

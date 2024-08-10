@@ -1,7 +1,7 @@
 # pkg-help formatted with fmt 59 63
 
 PORTNAME=	bind
-DISTVERSION=	9.18.26
+DISTVERSION=	9.18.28
 .if defined(BIND_TOOLS_SLAVE)
 # dns/bind-tools here
 PORTREVISION=	0
@@ -28,7 +28,7 @@ COMMENT=	BIND DNS suite with updated DNSSEC and DNS64
 # Uncomment when bind920 comes of age. +3 years if ESV, +1year otherwise, see
 # https://kb.isc.org/docs/aa-00896
 # DEPRECATED=	End of life, please migrate to a newer version of BIND9
-# EXPIRATION_DATE=	2023-12-31
+# EXPIRATION_DATE=	2025-12-31
 
 LICENSE=	MPL20
 LICENSE_FILE=	${WRKSRC}/LICENSE
@@ -72,7 +72,7 @@ EXTRA_PATCHES=		${PATCHDIR}/extrapatch-no-bind-tools
 
 PORTDOCS=	*
 
-CONFLICTS=	bind911 bind916 bind9-devel
+CONFLICTS=	bind920 bind9-devel
 .endif	# BIND_TOOLS_SLAVE
 
 MAKE_JOBS_UNSAFE=	yes
@@ -87,7 +87,7 @@ OPTIONS_SINGLE=		GSSAPI
 OPTIONS_SINGLE_GSSAPI=	GSSAPI_BASE GSSAPI_HEIMDAL GSSAPI_MIT GSSAPI_NONE
 
 .if defined(BIND_TOOLS_SLAVE)
-OPTIONS_EXCLUDE=	DNSTAP DOCS GEOIP LMDB \
+OPTIONS_EXCLUDE=	DOCS GEOIP LMDB \
 			OVERRIDECACHE QUERYTRACE START_LATE \
 			TCP_FASTOPEN
 .endif	# BIND_TOOLS_SLAVE

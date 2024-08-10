@@ -22,6 +22,7 @@
     SUBDIR += bb
     SUBDIR += bbjd
     SUBDIR += bdelta
+    SUBDIR += bedrust
     SUBDIR += bestfit
     SUBDIR += bible-kjv
     SUBDIR += biblesync
@@ -87,6 +88,7 @@
     SUBDIR += dijo
     SUBDIR += dive
     SUBDIR += dlib-models
+    SUBDIR += dlpack
     SUBDIR += dnetc
     SUBDIR += dotenv-linter
     SUBDIR += dtach
@@ -109,7 +111,6 @@
     SUBDIR += figlet
     SUBDIR += figlet-fonts
     SUBDIR += findutils
-    SUBDIR += firestring
     SUBDIR += flag
     SUBDIR += flashlight
     SUBDIR += fortune-mod-bible
@@ -198,6 +199,7 @@
     SUBDIR += iso-codes
     SUBDIR += jargon
     SUBDIR += jbidwatcher
+    SUBDIR += jirust
     SUBDIR += jojodiff
     SUBDIR += json-tui
     SUBDIR += kbdscan
@@ -238,13 +240,13 @@
     SUBDIR += libpri
     SUBDIR += librepo
     SUBDIR += libsolv
+    SUBDIR += libspnav
     SUBDIR += libsupertone
     SUBDIR += libsweep-lidar
     SUBDIR += libutf
     SUBDIR += libxdf
     SUBDIR += lifelines
     SUBDIR += lightgbm
-    SUBDIR += lingoteach
     SUBDIR += llama-cpp
     SUBDIR += locale-en_DK
     SUBDIR += localedata
@@ -275,6 +277,7 @@
     SUBDIR += mtx
     SUBDIR += mxnet
     SUBDIR += najitool
+    SUBDIR += navi
     SUBDIR += ncnn
     SUBDIR += netron
     SUBDIR += nms
@@ -384,6 +387,7 @@
     SUBDIR += php81-calendar
     SUBDIR += php82-calendar
     SUBDIR += php83-calendar
+    SUBDIR += php84-calendar
     SUBDIR += pinfo
     SUBDIR += pipe
     SUBDIR += posixtestsuite
@@ -400,13 +404,16 @@
     SUBDIR += py-SQSnobFit
     SUBDIR += py-SimpleSoapy
     SUBDIR += py-SoapySDR
+    SUBDIR += py-accelerate
+    SUBDIR += py-aider-chat
     SUBDIR += py-alive-progress
+    SUBDIR += py-anthropic
     SUBDIR += py-apache-beam
     SUBDIR += py-ascii-magic
     SUBDIR += py-ast-comments
     SUBDIR += py-boost-histogram
     SUBDIR += py-censys
-    SUBDIR += py-cinder
+    SUBDIR += py-codecarbon
     SUBDIR += py-colorbrewer
     SUBDIR += py-colored
     SUBDIR += py-crudini
@@ -419,6 +426,7 @@
     SUBDIR += py-facenet-pytorch
     SUBDIR += py-fast-histogram
     SUBDIR += py-fastscapelib
+    SUBDIR += py-files-to-prompt
     SUBDIR += py-fleep
     SUBDIR += py-fuzzy
     SUBDIR += py-gluoncv
@@ -437,6 +445,9 @@
     SUBDIR += py-lightgbm
     SUBDIR += py-lightning-utilities
     SUBDIR += py-litellm
+    SUBDIR += py-llama-cpp-python
+    SUBDIR += py-llm
+    SUBDIR += py-llm-claude-3
     SUBDIR += py-log_symbols
     SUBDIR += py-mffpy
     SUBDIR += py-mmcv
@@ -445,6 +456,7 @@
     SUBDIR += py-mmsegmentation
     SUBDIR += py-molequeue
     SUBDIR += py-mxnet
+    SUBDIR += py-natten
     SUBDIR += py-npTDMS
     SUBDIR += py-numcodecs
     SUBDIR += py-onnx
@@ -454,6 +466,7 @@
     SUBDIR += py-openpaperwork-core
     SUBDIR += py-openpaperwork-gtk
     SUBDIR += py-openvdb
+    SUBDIR += py-optuna
     SUBDIR += py-orange3-associate
     SUBDIR += py-orange3-datafusion
     SUBDIR += py-orange3-educational
@@ -526,6 +539,7 @@
     SUBDIR += qt6-examples
     SUBDIR += qt6ct
     SUBDIR += quantum++
+    SUBDIR += quary
     SUBDIR += randomx
     SUBDIR += raspberrypi-gpioshutdown
     SUBDIR += raspberrypi-userland
@@ -533,6 +547,7 @@
     SUBDIR += ree
     SUBDIR += retry
     SUBDIR += rfc
+    SUBDIR += rgb-tui
     SUBDIR += ringtonetools
     SUBDIR += rname
     SUBDIR += rpl

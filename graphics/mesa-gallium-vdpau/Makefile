@@ -1,6 +1,5 @@
 PORTNAME=	mesa-gallium-vdpau
 PORTVERSION=	${MESAVERSION}
-PORTREVISION=	2
 CATEGORIES=	graphics
 
 COMMENT=	Mesa Gallium VDPAU drivers
@@ -58,5 +57,4 @@ MESON_ARGS+=	-Dglx=disabled \
 		-Dplatforms=""
 .endif
 
-.include "${MASTERDIR}/Makefile.targets"
 .include <bsd.port.post.mk>

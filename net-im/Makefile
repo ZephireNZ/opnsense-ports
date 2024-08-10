@@ -3,7 +3,6 @@
     SUBDIR += beebeep
     SUBDIR += biboumi
     SUBDIR += chatterino2
-    SUBDIR += climm
     SUBDIR += coccinella
     SUBDIR += conduit
     SUBDIR += convey
@@ -26,9 +25,9 @@
     SUBDIR += gotktrix
     SUBDIR += gotosocial
     SUBDIR += gurk-rs
+    SUBDIR += iamb
     SUBDIR += icmpchat
     SUBDIR += icqlib
-    SUBDIR += jabberd
     SUBDIR += jarl
     SUBDIR += jicofo
     SUBDIR += jitsi-meet-full
@@ -108,6 +107,7 @@
     SUBDIR += purple-plugin-pack
     SUBDIR += purple-rocketchat
     SUBDIR += purple-slack
+    SUBDIR += py-apprise
     SUBDIR += py-fbmq
     SUBDIR += py-matrix-synapse
     SUBDIR += py-mattermostdriver
